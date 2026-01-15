@@ -42,24 +42,24 @@ These control the "meta-information" shown in your terminal.
 <!-- 
 4. Authentication & Security 
 -->
--u	--user	Provides credentials in user:password format.
--k	--insecure	Allows connecting to SSL sites without valid/trusted certificates.
--E	--cert	Specifies a client certificate file for SSL/TLS.
--L	--location	Follows "301/302 Redirect" links automatically.
--x	--proxy	Routes the request through a proxy server (e.g., -x 127.0.0.1:8080).
---anyauth		Tells curl to figure out the most secure auth method automatically.
+-u	    --user	                Provides credentials in user:password format.
+-k	    --insecure	            Allows connecting to SSL sites without valid/trusted certificates.
+-E	    --cert	                Specifies a client certificate file for SSL/TLS.
+-L	    --location	            Follows "301/302 Redirect" links automatically.
+-x	    --proxy	                Routes the request through a proxy server (e.g., -x 127.0.0.1:8080).
+--anyauth		                Tells curl to figure out the most secure auth method automatically.
 
 
 <!--
 5. Advanced Session Control
 -->
--b	--cookie	Sends a cookie string or reads cookies from a file.
--c	--cookie-jar	Saves all cookies from the session into a file.
--A	--user-agent	Sets a custom User-Agent string (to mimic a specific browser).
--e	--referer	Sets the "Referer Page" URL.
--m	--max-time	Sets a hard timeout for the entire operation (in seconds).
---connect-timeout		Sets a timeout only for the initial connection phase.
---limit-rate		Limits transfer speed (e.g., --limit-rate 100K).
+-b	        --cookie	        Sends a cookie string or reads cookies from a file.
+-c	        --cookie-jar	    Saves all cookies from the session into a file.
+-A	        --user-agent	    Sets a custom User-Agent string (to mimic a specific browser).
+-e	        --referer	        Sets the "Referer Page" URL.
+-m	        --max-time	        Sets a hard timeout for the entire operation (in seconds).
+--connect-timeout		        Sets a timeout only for the initial connection phase.
+--limit-rate		            Limits transfer speed (e.g., --limit-rate 100K).
 
 
 
